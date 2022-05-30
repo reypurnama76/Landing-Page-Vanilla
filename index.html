@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+    /* Navbar */
+    <header id="header">
+        <nav class="navbar">
+            <div class="logo">
+                <a href="">Re-Dev</a>
+            </div>
+            <!-- Menu Icon -->
+            <i id="menu-toggle" class='bx bx-grid-alt' style='color:#ffffff'></i>
+            <!-- NavLink -->
+            <div class="nav-link">
+                <ul>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#skills">My Skills</a></li>
+                    <li><a href="#projects">My Projects</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    /*
+    <!-- Main & Section--> */
+    <main>
+        <section id="home" class="jumbotron">
+            <div class="main-text">
+                <p>Hello My Name is</p>
+                <h1>Reynaldi</h1>
+                <div class="typing-text">
+                    <span>I'm a</span>
+                    <h3 class="typing">Frontend Developer.</h3>
+                </div>
+            </div>
+            <a href="#">
+                <div class="button" id="button">Contact Me!</div>
+            </a>
+        </section>
+        <!-- /*about section starts*/ -->
+
+        <section class=" about" id="about">
+
+            <h1 class="heading">About Me</h1>
+
+            <div class="row">
+
+                <div class="image" data-aos="flip-left">
+                    <img src="https://source.unsplash.com/500x500" alt="">
+                </div>
+
+                <div class="content">
+                    <h3>Who am i</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus qui ea ullam, enim
+                        tempora
+                        ipsum fuga alias quae ratione a officiis id temporibus autem? Quod nemo facilis
+                        cupiditate. Ex,
+                        vel?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, voluptatum!
+                    </p>
+                    <br>
+                    <a href="#" class="button btn">Chat Me</a>
+                </div>
+
+            </div>
+
+        </section>
+        /*
+        <!-- about section ends -->
+        <!-- Skills section --> */
+
+        <section id="skills">
+            <h1 class="heading">My Skills</h1>
+            <div class="skills">
+                <div class="box" data-aos="fade-up">
+                    <div class="image-skill">
+                        <img src="assets/img/html5.png" alt="My Skills">
+                    </div>
+                    <div class="skills-name">HTML5</div>
+                    <p>Hypertext Markup Language 5</p>
+                </div>
+                <div class="box" data-aos="flip-left">
+                    <div class="image-skill">
+                        <img src="assets/img/css3.webp" alt="My Skills">
+                    </div>
+                    <div class="skills-name">CSS3</div>
+                    <p>Cascading Style Sheet 3</p>
+                </div>
+                <div class="box" data-aos="fade-up">
+                    <div class="image-skill">
+                        <img src="assets/img/js.png" alt="My Skills">
+                    </div>
+                    <div class="skills-name">JS</div>
+                    <p>JavaScript</p>
+                </div>
+            </div>
+        </section>
+        <!-- Skills section ends -->
+
+        <!-- projects section -->
+        <section id="projects">
+            <h1 class="heading">My Projects</h1>
+            <div class="projects">
+                <div class="box" data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                    <div class="image-projects">
+                        <img src="assets/img/item.jpg" alt="My projects">
+                    </div>
+                    <div class="projects-name">Project 1</div>
+                    <p> Lorem ipsum dolor sitamet, stphen hawkin so adipisicing elit. Ratione disuja doloremque
+                        reiciendi
+                        nemo.</p>
+                    <div class="button">See More!</div>
+                </div>
+                <div class="box" data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                    <div class="image-projects">
+                        <img src="assets/img/item2.jpg" alt="My projects">
+                    </div>
+                    <div class="projects-name">Project 2</div>
+                    <p> Lorem ipsum dolor sitamet, stphen hawkin so adipisicing elit. Ratione disuja doloremque
+                        reiciendi
+                        nemo.</p>
+                    <div class="button">See More!</div>
+                </div>
+                <div class="box" data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                    <div class="image-projects">
+                        <img src="assets/img/item3.jpg" alt="My projects">
+                    </div>
+                    <div class="projects-name">Project 3</div>
+                    <p> Lorem ipsum dolor sitamet, stphen hawkin so adipisicing elit. Ratione disuja doloremque
+                        reiciendi
+                        nemo.</p>
+                    <div class="button">See More!</div>
+                </div>
+
+            </div>
+        </section>
+        <!-- projects section end-->
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="button-up" id="button-up" onclick="upButton()"><i class='bx bx-chevron-up-square'></i></div>
+
+        <section class="copyright">
+            <h5>Copyright 2022 | Design By <a href="https://instagram.com/rdgn_1">Re-Dev</a></h5>
+        </section>
+    </footer>
+
+    <!-- Animate on scroll -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="assets/Js/script.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
